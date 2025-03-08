@@ -1,6 +1,7 @@
 package Project;
 
 import javax.swing.*;
+
 import java.awt.event.*;
  
 public class LoginForm extends JFrame implements ActionListener {
@@ -61,5 +62,7 @@ public class LoginForm extends JFrame implements ActionListener {
             JOptionPane.showMessageDialog(this, "Invalid choice, please try again.");
         }
     }
+    public static void main(String[] args) {
+        new LoginForm();
+    }
 }
-
