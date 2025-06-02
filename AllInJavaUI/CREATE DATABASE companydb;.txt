@@ -1,0 +1,11 @@
+CREATE DATABASE companydb;
+
+USE companydb;
+
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    type VARCHAR(20), -- 'full' or 'part'
+    salary DOUBLE,
+    hours INT -- only used for part-time
+);
